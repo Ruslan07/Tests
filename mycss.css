@@ -91,21 +91,55 @@ nav.nav-bar-container {
   padding: 20px 0;
 }
 
+
+
+main.main-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 5px;
+  color: #424242;
+  position: relative;
+}
+
+div.three-boxes-container {
+  margin: 50px 0;
+  border-bottom: 1px solid #e3e3e3;
+}
+
+div.three-boxes-container >div {
+ 
+}
+
+
+div.intro-box-container {
+  width: 350px; 
+  height: 380px; 
+  margin: auto 20px; 
+  margin-bottom: 30px; 
+  padding: 5px; 
+  position: relative; 
+  display: inline-block;
+}
+
+div.intro-box {
+  margin: 0; 
+  position: absolute; 
+  top: 50%; 
+  -ms-transform: translateY(-50%); 
+  transform: translateY(-50%);
+}
 div.three_boxes {
-  padding: 0;
+  padding: 10px 0;
+  margin: 50px 0;
+  display: inline-block;
+  position: relative;
+
 } 
 
 div.three_boxes img {
-  width: 280px;
+  width: 350px;
   display: inline;
-  margin: 5px 41px 5px 41px;
-}
-
-main.main-container {
-  width: 1100px;
-  margin: 0 auto;
-  padding: 0 25px;
-  color: #424242;
+  margin: auto 20px;
 }
 
 footer {
@@ -113,4 +147,84 @@ footer {
   margin: 0 auto;
   padding: 10px 25px;
   color: #424242;
+}
+
+.intro-text-format {
+  line-height: 1.6em;
+}
+
+div.intro-text-container {
+  position: relative;
+}
+
+.intro-text-container img { 
+  width: 350px;
+  margin: 20px;
+}
+
+div.intro-image-wrapper {
+  width: 390px;
+}
+
+div.carousel-container {
+  text-align: center;
+}
+
+div.carousel img {
+  margin-right: 70px;
+  width: 750px;
+}
+
+div.carousel img:first-of-type {
+  margin-left: 70px;
+}
+
+.main-post-container {
+  padding: 0;
+  margin: 0;
+  width: 780px;
+}
+
+div.tag-list {
+  margin: 0;
+  margin-top: 50px;
+}
+
+div.tag-list ul{
+  margin-left: 0;
+  padding-left: 10px;
+}
+
+div.tag-list li {
+  float:left;
+  font-size: 1.2em;
+  border: 1px solid #cccccc;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #f5f5f5;
+  margin: 5px;
+  list-style-type: none;
+}
+
+.latest-post {
+  background-color: #000; 
+  padding: 50px; 
+  color: #FFF; 
+  font-size: 1.2em; 
+  position: absolute; 
+  top: 160px; 
+  left: 90px; 
+  letter-spacing: 2px;
+}
+
+.middle-box-intro {
+  position: absolute; 
+  width: 360px; 
+  top: 10%; 
+  left: 52%;
+}
+
+div.landscape-image {
+  text-align: center; 
+  margin: 20px 0;
 }
