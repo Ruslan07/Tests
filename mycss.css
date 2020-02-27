@@ -228,3 +228,17 @@ div.landscape-image {
   text-align: center; 
   margin: 20px 0;
 }
+
+.tall-panel-container {
+  width: 360px; 
+  position: absolute; 
+  right: 10px; 
+  top: 40%;
+}
+
+.panel-subscribe-unit {
+  font-size: 1.4em; 
+  padding: 0; 
+  line-height: 1.9em;
+}
+
