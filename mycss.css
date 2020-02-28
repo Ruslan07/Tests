@@ -4,14 +4,6 @@ body {
   padding-bottom: 100px;
   margin: 0;
 }
-table, td, th {
-  border: 0.01px solid #FFFFFF;
-}
-td, th {
-  background-color: #78b7e3;
-  padding: 5px;
-  color: #FFFFFF;
-}
 
 #newsletter {
   margin-bottom: 10px;
@@ -55,28 +47,34 @@ div.top-subscribe-button input {
   background-color: #4d4f4d;
 }
 
+ul.global-nav-bar {
+  list-style-type: none; 
+  padding: 0;
+}
+
+ul.global-nav-bar li{
+  display: inline-block;
+  margin: 0;
+}
+
+ul.global-nav-bar li a{
+  text-decoration: none;
+  text-align: center;
+  color: #000;
+  padding: 8px 12px;
+  display: block;
+}
+
 ul.nav-bar {
-  list-style-type: none;
   margin: 5px 0;
   margin-left: 360px;
-  padding: 0;
   padding-left: 20px;
   height: 40px;
   width: 740px;
 }
 
-.nav-bar li {
-  display: inline-block;
-  margin: 0;
-}
-
-.nav-bar li a {
-  padding: 8px 12px;
-  text-decoration: none;
-  text-align: center;
-  display: block;
+ul.nav-bar li a {
   width: 80px;
-  color: #000;
 }
 
 .nav-bar li a:hover {
@@ -106,11 +104,6 @@ div.three-boxes-container {
   border-bottom: 1px solid #e3e3e3;
 }
 
-div.three-boxes-container >div {
- 
-}
-
-
 div.intro-box-container {
   width: 350px; 
   height: 380px; 
@@ -128,6 +121,7 @@ div.intro-box {
   -ms-transform: translateY(-50%); 
   transform: translateY(-50%);
 }
+
 div.three_boxes {
   padding: 10px 0;
   margin: 50px 0;
@@ -240,5 +234,24 @@ div.landscape-image {
   font-size: 1.4em; 
   padding: 0; 
   line-height: 1.9em;
+}
+
+div.footer-nav-bar {
+  text-align: center;
+  padding-top: 40px;
+}
+
+.footer-nav-bar li a {
+  width: 120px;
+}
+
+div.social-icons {
+  text-align: center;
+  padding-top: 40px;
+}
+
+div.social-icons img {
+  height: 40px;
+  margin: 0 10px;
 }
 
